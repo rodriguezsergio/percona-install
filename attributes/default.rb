@@ -15,9 +15,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-# http://www.percona.com/downloads/percona-monitoring-plugins/percona-monitoring-plugins-0.9.0.tar.gz
+# http://www.percona.com/downloads/percona-monitoring-plugins/percona-monitoring-plugins-1.0.2.tar.gz
 default['percona-install']['plugins_url'] = "http://www.percona.com/downloads/percona-monitoring-plugins/"
-default['percona-install']['plugins_version'] = "0.9.0"
-default['percona-install']['plugins_sha'] = "04a7ace4c345ddc2a6b26cae0f6252533663d809008f284919b207b9a00e4a44"
+default['percona-install']['plugins_version'] = "1.0.2"
+default['percona-install']['plugins_sha'] = "da84cfe89637292da15ddb1e66f67ad9703fa21392d8d49e664ad08f7aa45585"
 default['percona-install']['plugins_path'] = "/opt/pmp"
 default['percona-install']['plugins_nagios'] = "/opt/pmp/nagios/bin"
